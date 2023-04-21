@@ -1,5 +1,5 @@
 @import url("fontawesome-all.min.css");
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Play&display=swap');
 
 /*
 	Prologue by HTML5 UP
@@ -141,6 +141,12 @@ body {
 	-webkit-text-size-adjust: none;
 }
 
+#image-box {
+	z-index: 999;
+	background-color: grey;
+	border-radius: 5px;
+}
+
 #derek-headshot {
 	width: 50%;
 	height: 15%;
@@ -183,7 +189,7 @@ html {
 
 body {
 	background: #fff;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Play', sans-serif;
 	font-size: 19pt;
 	font-weight: 300;
 	line-height: 1.75em;
@@ -206,7 +212,7 @@ body.is-preload *:after {
 input,
 textarea,
 select {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Play', sans-serif;
 	font-size: 19pt;
 	font-weight: 300;
 	line-height: 1.75em;
