@@ -1,11 +1,6 @@
 @import url("fontawesome-all.min.css");
 @import url('https://fonts.googleapis.com/css2?family=Koulen&family=Play&display=swap');
 
-/*
-	Prologue by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 html,
 body,
@@ -1887,6 +1882,11 @@ article:last-child {
 .image img {
 	display: block;
 	width: 100%;
+}
+
+video {
+	width: 100%;
+	display: block;
 }
 
 .image.avatar48 {
