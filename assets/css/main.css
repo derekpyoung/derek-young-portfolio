@@ -148,8 +148,28 @@ body {
 	display: flex;
 	margin: 0 auto;
 	border-radius: 50%;
-
+	object-fit: cover;
+	cursor: pointer;
+	margin-bottom: 3rem;
 }
+
+@keyframes pulse {
+
+	from,
+	to {
+		scale: 1;
+	}
+
+	50% {
+		scale: .8;
+	}
+}
+
+#derek-headshot:hover {
+	animation: pulse 800ms ease-in-out;
+}
+
+
 
 mark {
 	background-color: transparent;
@@ -2237,7 +2257,7 @@ button:active,
 }
 
 #header .icons a:hover {
-	color: #fff;
+	color: #e27689;
 }
 
 #logo {
@@ -2278,6 +2298,12 @@ button:active,
 
 #nav ul li {
 	padding-left: 0;
+}
+
+#nav ul li:hover {
+	padding-left: 0;
+	background-color: #e27689;
+	transition: 2000ms ease;
 }
 
 #nav ul li a {
