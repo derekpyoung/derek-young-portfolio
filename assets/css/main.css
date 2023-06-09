@@ -132,6 +132,8 @@ table {
 	border-spacing: 0;
 }
 
+
+
 body {
 	-webkit-text-size-adjust: none;
 }
@@ -2269,7 +2271,7 @@ button:active,
 
 #logo h1 {
 	position: relative;
-	color: #fff;
+	color: #e27689;
 	font-weight: 600;
 	font-size: 1em;
 	line-height: 1em;
