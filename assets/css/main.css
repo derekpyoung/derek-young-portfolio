@@ -2302,8 +2302,8 @@ button:active,
 
 #nav ul li:hover {
 	padding-left: 0;
-	background-color: #e27689;
-	transition: 2000ms ease;
+	background-color: #e27689 !important;
+	transition: 2000ms ease !important;
 }
 
 #nav ul li a {
