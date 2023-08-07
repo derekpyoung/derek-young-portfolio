@@ -2158,6 +2158,10 @@ button:active,
 	border-radius: 1rem;
 }
 
+.item video .curr {
+	border: 3px solid black !important;
+}
+
 .item img {
 	border-radius: 1rem;
 }
@@ -2165,6 +2169,8 @@ button:active,
 .no-dec {
 	border: none !important;
 }
+
+
 
 .item header {
 	background: #fff;
