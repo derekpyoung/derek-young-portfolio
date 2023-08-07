@@ -2150,8 +2150,8 @@ button:active,
 }
 
 .item a {
-	border: 1px solid black;
-	border-radius: 1.1rem;
+	border: 2px solid black;
+	border-radius: 1.2rem;
 }
 
 .item video {
