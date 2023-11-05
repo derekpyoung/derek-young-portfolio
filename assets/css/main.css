@@ -214,28 +214,8 @@ body {
 }
 
 
-/* .spline-animation {
-	position: relative;
-}
-
-.spline-text {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	z-index: 10;
-
-} */
 
 
-/* .spline-text h1 {
-	color: white;
-	font-family: 'DM Serif Display', sans-serif;
-	font-weight: bolder;
-	font-size: larger;
-	text-align: center;
-
-}
 
 /* relative container */
 #about {
@@ -265,11 +245,11 @@ body {
 #about header,
 #about .headshot-card,
 #about p {
-	color: white;
+	color: rgb(18, 17, 17);
 	font-weight: bold;
 	font-family: 'DM Serif Display', sans-serif;
-	-webkit-text-stroke-width: 1.3px;
-	-webkit-text-stroke-color: rgb(154, 153, 153);
+	/* -webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: rgb(7, 7, 7); */
 }
 
 
@@ -2526,7 +2506,9 @@ button:active,
 #main>section.one {
 	background-color: #a3adab;
 	background-image: url("images/compressedsnow.png");
-	color: #464646
+	color: #464646;
+	/* -webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: rgb(7, 7, 7); */
 }
 
 #main>section.one:before {
