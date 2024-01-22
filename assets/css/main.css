@@ -239,6 +239,11 @@ body {
 	position: relative;
 	z-index: 2;
 
+
+}
+
+.about-head {
+	font-weight: bolder;
 }
 
 
@@ -246,7 +251,7 @@ body {
 #about .headshot-card,
 #about p {
 	color: rgb(18, 17, 17);
-	font-weight: bold;
+	font-weight: bolder;
 	font-family: 'DM Serif Display', sans-serif;
 	/* -webkit-text-stroke-width: 1px;
 	-webkit-text-stroke-color: rgb(7, 7, 7); */
@@ -255,6 +260,7 @@ body {
 
 .spline {
 	width: 150%;
+	background-color: #e298a5;
 	height: 100%;
 }
 
