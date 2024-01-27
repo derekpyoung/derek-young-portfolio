@@ -433,12 +433,25 @@ br.clear {
 		width: 960px;
 	}
 
+	.item {
+		width: 50%;
+		height: auto;
+		margin: 0 auto;
+	}
+
+
 }
 
 @media screen and (min-width: 961px) and (max-width: 1320px) {
 
 	.container {
 		width: 100%;
+	}
+
+	.item {
+		width: 50%;
+		height: auto;
+		margin: 0 auto;
 	}
 
 }
@@ -449,12 +462,24 @@ br.clear {
 		width: 100%;
 	}
 
+	.item {
+		width: 50%;
+		height: auto;
+		margin: 0 auto;
+	}
+
 }
 
 @media screen and (max-width: 736px) {
 
 	.container {
 		width: 100%;
+	}
+
+	.item {
+		width: 50%;
+		height: auto;
+		margin: 0 auto;
 	}
 
 }
