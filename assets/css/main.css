@@ -433,11 +433,6 @@ br.clear {
 		width: 960px;
 	}
 
-	.item {
-		width: 50%;
-		height: auto;
-		margin: 0 auto;
-	}
 
 
 }
@@ -448,11 +443,7 @@ br.clear {
 		width: 100%;
 	}
 
-	.item {
-		width: 50%;
-		height: auto;
-		margin: 0 auto;
-	}
+
 
 }
 
@@ -463,9 +454,13 @@ br.clear {
 	}
 
 	.item {
-		width: 50%;
+		width: 100%;
 		height: auto;
 		margin: 0 auto;
+	}
+
+	article header {
+		width: 90%;
 	}
 
 }
@@ -476,10 +471,22 @@ br.clear {
 		width: 100%;
 	}
 
-	.item {
-		width: 50%;
+
+	video {
+		width: 50% !important;
 		height: auto;
 		margin: 0 auto;
+		border: none;
+	}
+
+	.item a {
+		border: none !important;
+	}
+
+	article header {
+		/* color: red; */
+
+
 	}
 
 }
