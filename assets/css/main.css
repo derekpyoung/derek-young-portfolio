@@ -479,6 +479,13 @@ br.clear {
 		border: none;
 	}
 
+	img {
+		width: 50% !important;
+		height: auto;
+		margin: 0 auto;
+		border: none;
+	}
+
 	.item a {
 		border: none !important;
 	}
