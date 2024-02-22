@@ -324,11 +324,11 @@ h2 {
 }
 
 h2.alt {
-	color: #888;
+	color: black !important;
 }
 
 h2.alt strong {
-	color: #666;
+	color: black !important;
 }
 
 h3 {
@@ -485,6 +485,8 @@ br.clear {
 		margin: 0 auto;
 		border: none;
 	}
+
+
 
 	.item a {
 		border: none !important;
@@ -2263,7 +2265,13 @@ button:active,
 	border: none !important;
 }
 
+.item h3 {
+	font-weight: bolder;
+}
 
+.item p {
+	font-weight: 300;
+}
 
 .item header {
 	background: #fff;
@@ -2374,6 +2382,11 @@ button:active,
 #header .icons a:hover {
 	color: #e27689;
 }
+
+header>p {
+	color: black;
+}
+
 
 #logo {
 	position: relative;
