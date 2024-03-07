@@ -132,6 +132,9 @@ table {
 	border-spacing: 0;
 }
 
+#top p {
+	text-align: left;
+}
 
 
 body {
@@ -213,8 +216,14 @@ body {
 	color: #888;
 }
 
+header h2 {
+	color: black;
+	font-weight: 400;
+}
 
-
+.about-me p {
+	text-align: left;
+}
 
 
 /* relative container */
@@ -242,10 +251,10 @@ body {
 
 }
 
-/* .about-head {
-	font-weight: bolder;
+.about-head {
+	font-weight: 400;
 	color: black;
-} */
+}
 
 
 #about header,
@@ -321,6 +330,19 @@ h6 a strong {
 h2 {
 	font-size: 2em;
 	letter-spacing: -1px;
+}
+
+#portfolio {
+	color: black;
+}
+
+#portfolio p {
+	text-align: left;
+}
+
+#portfolio h2 {
+	font-weight: 400;
+	color: black;
 }
 
 h2.alt {
@@ -2032,6 +2054,8 @@ video {
 
 .project-btn {
 	bottom: -55px;
+	text-align: center;
+	align-self: center !important;
 }
 
 .image.left {
@@ -2266,11 +2290,21 @@ button:active,
 }
 
 .item h3 {
+	text-align: center;
 	font-weight: bolder;
+	padding: .5rem;
+	color: #E27689;
+}
+
+.item,
+a:hover {
+	color: #4e4e4e;
 }
 
 .item p {
-	font-weight: 300;
+	font-weight: 350;
+	font-size: 1rem;
+	padding: .8rem;
 }
 
 .item header {
