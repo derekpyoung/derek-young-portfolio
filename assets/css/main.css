@@ -726,8 +726,7 @@ br.clear {
 @media screen and (max-width: 736px) {
 	.photo {
 		height: 80vh;
-		padding-bottom: 0;
-		;
+		padding-bottom: 1rem !important;
 	}
 
 	.image img {
