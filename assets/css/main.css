@@ -416,13 +416,13 @@ body {
 	margin-bottom: 3rem;
 }
 
-#contact {
-	height: 55vh;
-	overflow: hidden;
-}
 
 #contact textarea {
 	height: 5rem !important;
+}
+
+#main {
+	margin-bottom: 4rem;
 }
 
 
@@ -3227,6 +3227,8 @@ header>p {
 
 	#footer {
 		margin-left: 0;
+		/* position: fixed; */
+		bottom: 0;
 	}
 
 	/* Main */
@@ -3300,12 +3302,20 @@ header>p {
 
 	/* Footer */
 
+	#footer {
+		width: 100% !important;
+
+	}
+
 	#footer .copyright li {
 		display: block;
 		line-height: 1.25em;
 		border: 0;
 		padding: 0;
 		margin: 1em 0 0 0;
+
+
+
 	}
 
 	#footer .copyright li:first-child {
