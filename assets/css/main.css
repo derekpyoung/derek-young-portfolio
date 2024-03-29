@@ -726,16 +726,28 @@ br.clear {
 @media screen and (max-width: 736px) {
 	.photo {
 		height: 80vh;
+		padding-bottom: 0;
+		;
 	}
 
-	.composition_photo {
+	.image img {
+		width: 4.5rem !important;
 		height: auto;
 	}
 
+	.top {
+		height: 65vh;
+	}
+
+
+
+	.composition:hover .composition_photo:not(:hover) {
+		transform: scale(.75);
+	}
+
 	.composition_photo:hover {
-		/* outline: 1rem solid rgba(100, 100, 100, .61); */
-		transform: scale(3);
-		left: 50% !important;
+		transform: scale(1.5);
+		left: 22% !important;
 		top: 5rem;
 		box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.5);
 		z-index: 20;
@@ -743,30 +755,24 @@ br.clear {
 	}
 
 	.composition_photo-p1 {
-		left: 40% !important;
-		top: 2rem !important;
+		left: 30% !important;
+		top: -4rem !important;
 	}
 
 	.composition_photo-p2 {
-		left: 20% !important;
+		left: -1rem !important;
 		top: 5rem !important;
 	}
 
 	.composition_photo-p3 {
-		left: 60% !important;
+		left: 50% !important;
 		top: 5rem !important;
 	}
 
 	.composition_photo-p4 {
-		left: 40% !important;
-		top: 10rem !important;
+		left: 30% !important;
+		top: 17rem !important;
 	}
-
-
-
-
-
-
 
 	video {
 		width: 50% !important;
@@ -776,7 +782,7 @@ br.clear {
 	}
 
 	img {
-		width: 25% !important;
+		width: 55% !important;
 		height: auto;
 		margin: 0 auto;
 		border: none;
