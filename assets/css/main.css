@@ -154,6 +154,7 @@ body {
 	left: 0;
 	width: 100%;
 	height: 100%;
+	z-index: -1;
 	overflow: hidden;
 }
 
@@ -2687,6 +2688,7 @@ a:hover {
 	-ms-flex-shrink: 0;
 	flex-shrink: 0;
 	padding: 1.5em 0 0.75em 0;
+	z-index: 10 !important;
 }
 
 #header .bottom> :last-child {
@@ -3117,6 +3119,11 @@ header>p {
 	}
 
 	#header .top {
+		position: relative;
+	}
+
+	.bottom {
+		z-index: 2;
 		position: relative;
 	}
 
