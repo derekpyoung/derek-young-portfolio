@@ -327,7 +327,7 @@ body {
 .composition_photo:hover {
 	/* outline: 1rem solid rgba(100, 100, 100, .61); */
 	transform: scale(3);
-	/* left: 50% !important; */
+	left: 45% !important;
 	top: 5rem;
 	box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.5);
 	z-index: 20;
@@ -406,6 +406,17 @@ body {
 	/* cursor: pointer; */
 	margin-bottom: 3rem;
 }
+
+#contact {
+	height: 55vh;
+	overflow: hidden;
+}
+
+#contact textarea {
+	height: 5rem !important;
+}
+
+
 
 
 /* @keyframes pulse {
@@ -2437,7 +2448,7 @@ form select {
 }
 
 form textarea {
-	min-height: 14em;
+	/* min-height: 14em; */
 }
 
 form ::-webkit-input-placeholder {
