@@ -513,7 +513,6 @@ header h2 {
 	position: relative;
 }
 
-
 .spline {
 	position: absolute;
 	top: 0;
@@ -526,8 +525,6 @@ header h2 {
 #about .container {
 	position: relative;
 	z-index: 2;
-
-
 }
 
 .about-head {
@@ -543,10 +540,9 @@ header h2 {
 	font-family: 'DM Serif Display', sans-serif;
 }
 
-
 .spline {
 	width: 100%;
-	background-color: #e298a5;
+	background: linear-gradient(#b87d88, #e298a5, #f4a5b4);
 	height: 100%;
 }
 
