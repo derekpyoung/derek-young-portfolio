@@ -1,7 +1,6 @@
 @import url("fontawesome-all.min.css");
 @import url('https://fonts.googleapis.com/css2?family=Koulen&family=Play&display=swap');
 
-
 html,
 body,
 div,
@@ -136,7 +135,6 @@ table {
 	text-align: left;
 }
 
-
 body {
 	-webkit-text-size-adjust: none;
 }
@@ -211,7 +209,6 @@ body {
 	animation-duration: 25s;
 }
 
-
 .circles div:nth-child(4) {
 	left: 83%;
 	width: 50px;
@@ -260,7 +257,6 @@ body {
 	animation-duration: 16s;
 }
 
-
 /*  */
 .scroll-watcher {
 	height: 10px;
@@ -276,13 +272,10 @@ body {
 	animation-timeline: scroll();
 }
 
-
 /* v photos */
 .photo {
 	height: 90vh;
 }
-
-
 
 .composition_photo {
 	width: 65%;
@@ -304,7 +297,6 @@ body {
 	width: 150px;
 }
 
-
 .composition_photo-p1 {
 	left: 45% !important;
 	top: -2rem !important;
@@ -325,13 +317,12 @@ body {
 	top: 10rem !important;
 }
 
-
 .para-background {
 	background-color: white;
 	border-radius: 20px;
 	padding: 1rem;
 	opacity: 1;
-	box-shadow: 2px 2px grey;
+	/* box-shadow: 2px 2px grey; */
 }
 
 .composition_photo:hover {
@@ -361,9 +352,6 @@ body {
 	transform: scale(.75);
 }
 
-
-
-
 /* ^ photos */
 @keyframes scroll-watcher {
 	to {
@@ -386,20 +374,12 @@ body {
 	}
 }
 
-/* .seperator {
-	display: block;
-	height: 5vh;
-	background-color: #e298a5;
-	border-radius: 0 0 50% 50%;
-} */
-
 #derek-headshot {
 	scale: .7;
 	opacity: 0;
 	animation: fade-in linear forwards;
 	animation-timeline: view(-5%);
 	animation-range: 250px 500px;
-
 }
 
 @keyframes fade-in {
@@ -410,10 +390,7 @@ body {
 	}
 }
 
-
-
 /* ------------------------------------------------------- */
-
 #derek-headshot {
 	width: 50%;
 	height: 15%;
@@ -425,7 +402,6 @@ body {
 	margin-bottom: 3rem;
 }
 
-
 #contact textarea {
 	height: 5rem !important;
 }
@@ -433,25 +409,6 @@ body {
 #main {
 	margin-bottom: 4rem;
 }
-
-
-
-
-/* @keyframes pulse {
-
-	from,
-	to {
-		scale: 1;
-	}
-
-	50% {
-		scale: .8;
-	}
-}
-
-#derek-headshot:hover {
-	animation: pulse 1000ms ease-in-out;
-} */
 
 mark {
 	background-color: transparent;
@@ -542,7 +499,7 @@ header h2 {
 
 .spline {
 	width: 100%;
-	background: linear-gradient(#b87d88, #e298a5, #f4a5b4);
+	background: linear-gradient(135deg, #f4a5b4, #ffffff, #ffffff);
 	height: 100%;
 }
 
@@ -643,7 +600,7 @@ footer {
 
 strong,
 b {
-	font-weight: 300;
+	font-weight: 800;
 	color: #666;
 }
 
@@ -764,8 +721,6 @@ br.clear {
 		height: 65vh;
 	}
 
-
-
 	.composition:hover .composition_photo:not(:hover) {
 		transform: scale(.75);
 	}
@@ -813,9 +768,6 @@ br.clear {
 		border: none;
 	}
 
-
-
-
 	.item a {
 		border: none !important;
 	}
@@ -823,7 +775,6 @@ br.clear {
 }
 
 /* Row */
-
 .row {
 	display: flex;
 	flex-wrap: wrap;
@@ -1066,7 +1017,6 @@ br.clear {
 }
 
 @media screen and (min-width: 961px) and (max-width: 1880px) {
-
 	.row {
 		display: flex;
 		flex-wrap: wrap;
