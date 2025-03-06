@@ -2695,15 +2695,15 @@ header>p {
 
 #logo h1 {
 	position: relative;
-	color: #FF6B6B; /* Vibrant accent color */
-    font-size: 1.2em;
+	color: #e27689; /* Vibrant accent color */
+    font-size: 1em;
     font-weight: 600;
 }
 
 #logo p {
 	position: relative;
 	display: block;
-	font-size: 0.8em;
+	font-size: 0.7em;
 	color: #A3A3A3;
 	line-height: 1.25em;
 	margin: 0.5em 0 0 0;
